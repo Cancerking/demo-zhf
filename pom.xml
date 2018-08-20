@@ -61,5 +61,15 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>aliyunmaven</id>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</repository>
+		<repository>
+			<id>spring-milestone</id>
+			<url>http://repo.spring.io/libs-release</url>
+		</repository>
+	</repositories>
 
 </project>
