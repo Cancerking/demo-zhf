@@ -35,10 +35,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
 		<!--alibaba begin-->
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -49,6 +45,10 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.2.28</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
 
@@ -61,15 +61,5 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>aliyunmaven</id>
-			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>spring-milestone</id>
-			<url>http://repo.spring.io/libs-release</url>
-		</repository>
-	</repositories>
 
 </project>
