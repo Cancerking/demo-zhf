@@ -1,4 +1,4 @@
-package com.gilab.jenkins.demo.controller;
+package com.github.jenkins.demo.controller;
 
 import com.alibaba.druid.util.StringUtils;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.text.ParseException;
 
 /**
- * @Author: HU_zhenwei
  * @Date: 2018/8/20上午11:21
  * @Descripton:
  */

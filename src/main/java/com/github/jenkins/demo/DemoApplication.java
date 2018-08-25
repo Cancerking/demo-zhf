@@ -1,4 +1,4 @@
-package com.gilab.jenkins.demo;
+package com.github.jenkins.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
